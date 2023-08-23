@@ -1,0 +1,60 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    border: 3px dotted;
+  }
+  
+  #timer {
+    /* font-size: 48px; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #timer span {
+    margin: 0 5px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .control-buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  @media only screen and (max-width: 768px) {
+    button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
